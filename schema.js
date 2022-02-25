@@ -43,7 +43,7 @@ exports.typeDefs = gql `
 
 
     type Query {
-        searchListingByName(listing_title: String!) : [Listing]
+        searchListingByName(listing_id: String!) : [Listing]
         searchListingByCity(city: String!) : [Listing]
         searchListingByPostalCode(postal_code: String!) : [Listing]
 

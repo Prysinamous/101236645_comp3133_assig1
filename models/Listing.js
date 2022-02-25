@@ -32,7 +32,8 @@ const ListingSchema = new mongoose.Schema(
         required: true
     },
 
-    postalcode: {
+    postal_code: 
+    {
         type: String,
         required: true
     },
